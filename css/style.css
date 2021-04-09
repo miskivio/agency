@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    margin: 20px 0 20px 0;
+    font-size: 1.1rem;
+}
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    color:#000;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Button */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: #c0c0c0;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.01);
+}
+
+.logo {
+    position: absolute;
+    top:30px;
+    left: 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    /* front to users */
+    z-index: 10;
+}
+
+/* Toggle btn*/
+.toggle {
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 60px;
+    height: 60px;
+    background: red url(../img/menu.png);
+    z-index: 10;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+/* Nav */
+.navigation {
+    display: none;
+}
+
+
+
+/* Home */
+
+.home-content {
+    z-index: 10;
+    max-width: 800px;
+}
+
+.home-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 120%;
+}
+
+
